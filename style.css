@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+img {
+  width: 150px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: square;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
