@@ -94,12 +94,32 @@ import Form from "./Components/forms";
 // } 
 
 
-import Window from "./Window";
+// import Window from "./Window";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <Window />
+//     </div>
+//   );
+// }
+
+// import ReduxCounter from "./ReduxCounter";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <ReduxCounter />
+//     </div>
+//   ) ;
+// }
+
+import ReduxPosts from "./ReduxPosts";
 
 export default function App() {
   return (
     <div>
-      <Window />
+      <ReduxPosts />
     </div>
-  );
+  )
 }
